@@ -1,0 +1,44 @@
+#logo {
+	font-size: 50px;
+	font-family: Titillium Web;
+}
+
+.divide {
+	padding: 0px 20%;
+
+}
+
+#sign {
+	background-color: #4CAF50;
+  	color: white;
+	padding: 20px;
+  	text-align: center;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border-radius: 12px;
+}
+
+#sign:hover {
+	background-color: white;
+  	color: #4CAF50;
+}
+
+#intro {
+	margin-top: 5%;
+	text-align: center;
+	font-family: Laila;
+}
+
+
+#bar {
+	padding: 0px 20%;
+}
+
+#credit {
+	font-size: 20px;
+}
+#long {
+	font-family: Abel;
+}

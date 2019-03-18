@@ -1,0 +1,27 @@
+#logo {
+	font-size: 50px;
+	font-family: Titillium Web;
+}
+
+#bar {
+	padding: 0px 20%;
+}
+
+#credit {
+	font-size: 20px;
+}
+
+.divide {
+	padding: 0px 20%;
+
+}
+
+#tips {
+	margin-top: 5%;
+	text-align: center;
+	font-family: Laila;
+}
+
+#long {
+	font-family: Abel;
+}

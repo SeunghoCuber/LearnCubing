@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    	<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    	<link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+		<link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-success" id="bar">
+      <a class="navbar-brand" href="#"><img id="cuube" src="cuube50.png"></a>
+      <a class="navbar-brand" id="logo" href="file:///Users/seungho/Desktop/SVY%20Website%20Design/Final%20Project/page1.html">LearnCubing<h1 id="credit">by Seungho Lee</h1></a>
+      <a class="navbar-brand" href="file:///Users/seungho/Desktop/SVY%20Website%20Design/Final%20Project/page1.html">Introduction</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <!--
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                2x2
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="file:///Users/seungho/Desktop/SVY%20Website%20Design/Final%20Project/page2.html">Beginner Method</a>
+                  <a class="dropdown-item" href="#">Intermediate Method</a>
+              </div>
+              <script type='text/javascript'>
+              
+              </script>
+            </li>
+            <a class="navbar-brand" href="file:///Users/seungho/Desktop/SVY%20Website%20Design/Final%20Project/page3.html">Tips</a>
+            <!--  
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          -->
+        </ul>
+          <!--
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        -->
+      </div>
+    </nav>
+    <div class="divide">
+      <h1 id="intro">Introduction</h1>
+      <hr>
+      <h3 id="long">Have you ever searched for a website that has good cubing tutorials? Nowadays, there are many online cubing tutorials, but which website should you use? When people start cubing, they search for websites or videos to learn. But, they have to visit many sites to find one that has good, concise, intuitive tutorials. This website, LearnCubing, is for bigenner or intermidiate solvers who want cubing tutorials that they can understand easily. Sign up now to use the tutorials and become a member for free!</h3>
+      <button id="sign" onclick="hitOrMiss()">Sign Up</button>
+      <div id="messageform">
+        <h3>Sign Up :</h3>
+        <input class="form-control" id="name" type="text" placeholder="Enter your name...">
+        <input class="form-control" id="email" type="text" placeholder="Enter your enter your email...">
+        <textarea class="form-control" id="message"placeholder="Enter your message..." rows=5></textarea>
+        <button onclick="validate()" class="btn btn-success">Submit Message</button>
+      </div>
+    </div>
+	</body>
+</html>
