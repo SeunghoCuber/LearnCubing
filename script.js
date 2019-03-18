@@ -1,11 +1,11 @@
 var a = false;
 
+$( function() {
+	$("#messageform").hide();      
+});
+
 function hitOrMiss() {
-	a = !a
-	if (a) {
-		$("#messageform").show();
-	}else {
-		$("#messageform").hide();
-	}
+	$("#sign").hide()
+	$("#messageform").show();
 }
 
