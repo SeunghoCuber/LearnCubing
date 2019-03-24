@@ -2,22 +2,22 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     	<!-- Bootstrap CSS -->
-    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    	<link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
 		<link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
@@ -47,12 +47,9 @@
                 2x2
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="page2.html">Beginner Method</a>
-                  <a class="dropdown-item" href="#">Intermediate Method</a>
+                <a class="dropdown-item" href="page2.html">Beginner Method</a>
+                <a class="dropdown-item" href="#">Intermediate Method</a>
               </div>
-              <script type='text/javascript'>
-              
-              </script>
             </li>
             <a class="navbar-brand" href="page3.html">Tips</a>
             <!--  
@@ -72,14 +69,15 @@
     <div class="divide">
       <h1 id="intro">Introduction</h1>
       <hr>
-      <h3 id="long">Have you ever searched for a website that has good cubing tutorials? Nowadays, there are many online cubing tutorials, but which website should you use? When people start cubing, they search for websites or videos to learn. But, they have to visit many sites to find one that has good, concise, intuitive tutorials. This website, LearnCubing, is for bigenner or intermidiate solvers who want cubing tutorials that they can understand easily. Sign up now to use the tutorials and become a member for free!</h3>
-      <button id="sign" onclick="hitOrMiss()">Sign Up</button>
+      <h3 id="long">Have you ever searched for a website that has good cubing tutorials? Nowadays, there are many online cubing tutorials, but which website should you use? When people start cubing, they search for websites or videos to learn. But, they have to visit many sites to find one that has good, concise, intuitive tutorials. This website, LearnCubing, is for bigenner or intermidiate solvers who want cubing tutorials that they can understand easily. Feel free to send any feedbacks on this website!</h3>
+      <button id="sign" onclick="hitOrMiss()">Send Feedback</button>
+      <h3 id="error"></h3>
       <div id="messageform">
-        <h3>Sign Up :</h3>
+        <h3>Send Feedback :</h3>
         <input class="form-control" id="name" type="text" placeholder="Enter your name...">
         <input class="form-control" id="email" type="text" placeholder="Enter your enter your email...">
         <textarea class="form-control" id="message"placeholder="Enter your message..." rows=5></textarea>
-        <button onclick="validate()" class="btn btn-success">Submit Message</button>
+        <button onclick="validate()" class="btn btn-success">Submit Feedback</button>
       </div>
     </div>
 	</body>
